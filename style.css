@@ -1,0 +1,96 @@
+
+header,body {
+  background:#FBB8BB;
+  padding: 20px 0;
+}
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 60px;
+  right: 0;
+
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color:#663333;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color:#C78C19;
+  text-decoration: underline;
+}/*
+
+color: #663333;
+font-size: 25px;
+font-style: italic;*/
+
+img.cupcake2{
+  width: 100%;
+  height:100%
+}
+
+body {
+
+  background: #CC9999;
+}
+h1{
+  color: #663333;
+  font-size: 35px;
+  font-size: italic;
+}
+.titulo-principal{
+  clear: left;
+}
+h2 {
+  margin: 20px;
+  color: #663333;
+  text-align: center;
+  font-size: 30px;font-style: italic;
+}
+
+.utensilios{
+  width: 200px;
+  float: left;
+
+}
+
+p{
+  font-size: 20px;
+}
+h3 {
+  margin: 20px;
+  color: #663333;
+  font-size: 30px;
+  font-style: italic;
+}
+ul{
+  font-size: 20px;
+  font-style: italic;
+}
+img.doces {
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+}
+/*http://www.divinosdocesfinos.com.br/wp-content/uploads/2016/08/cupcake2-1.jpg*/
+
+footer{
+  text-align: center;
+  background: url("bg.jpg");
+  padding: 30px 0;
+  background:#FFCCCC;
+}
+.copyright{
+  color: #663333;
+  margin: 20px;
+}
