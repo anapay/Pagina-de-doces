@@ -39,7 +39,13 @@ const Cliente = sequelize.define('clientes', {
         type: Sequelize.INTEGER
     }
 })
+ Cliente.create({
+     nome: "Joao",
+     sobrenome: "Vitor",
+     email: "Joao@vitor.com", 
+     idade: 18
 
+ })
 // chamando a variavel postagem
 // Postagem.sync({force: true})
 // o force: true garante que a tabela seja criada por esse objeto jason

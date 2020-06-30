@@ -1,30 +1,12 @@
+
+
 const express = require('express');
 const app = express();
+const handlebars = require("express-handlebars")
 
-app.get("/Home", function(req, res){
-    res.sendFile(__dirname + "/index.html")
-});
-
-app.get("/produtos", function(req, res){
-    res.sendFile(__dirname + "/produtos.html")
-});
-
-app.get("/contato", function(req, res){
-    res.sendFile(__dirname + "/contatodoces.html")
-
-})
-
-
-
-
-
-
-
-
-
-
-
-
+// config template engine handlebars
+app.engine("handlebars", handlebars({defaultLayout: "main"}))
+app.set("view engine", "handlebars")
 
 
 
