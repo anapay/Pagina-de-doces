@@ -1,4 +1,9 @@
 
+    
+body {
+    background-color: #FBB8BB
+  }
+
 header {
 background:#FBB8BB;
 padding: 20px 0;
@@ -123,4 +128,3 @@ td,th{
 border: 1px solid rgb(61, 5, 34);
 padding: 8px 15px ;
 }
-

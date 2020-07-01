@@ -1,0 +1,68 @@
+
+   
+    <main>
+        <form action="/received" method="POST">
+            <label for="nome">Nome e Sobrenome</label>
+            <input name="nome" type="text" id="nome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input name="email" type="email" id="email" class="input-padrao" required placeholder="seuEmail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input name="telefone" type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="radio-telefone">Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="radio-whatsapp"
+                        checked>WhatsApp</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+                Email?</label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h~20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h~20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h~20h</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+
+        <p class="copyright">&copy; Copyright Doceria da Ana-2020</p>
+    </footer>

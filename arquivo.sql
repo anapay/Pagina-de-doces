@@ -60,3 +60,10 @@ DELETE FROM NOMETABELA WHERE nome = "brigadeiro";
 -- atualizando registros 
 UPDATE produtos SET valor = 9.85 WHERE nome = "strawberry";
 -- atualize a tabela produtos com o campo de nome valor com o novo registro de 9.85 qu eesta na coluna nome com o valor de strawberry
+
+--alterando tipo de dados da coluna de uma tabela
+ALTER TABLE nome_da_tabela
+CHANGE nome_atual novo_nome [Tipo de Dados];
+
+ALTER TABLE cadastros
+CHANGE telefone telefone VARCHAR(255);

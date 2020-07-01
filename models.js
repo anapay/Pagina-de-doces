@@ -1,10 +1,3 @@
-const Sequelize = require('sequelize')
-
-const sequelize = new Sequelize('Posts', 'ana', 'joao',
-    {
-        host: 'localhost',
-        dialect: 'mysql'
-    });
 
 // criando modelo de tabela no mysql atravez do sequelize
 const Postagem = sequelize.define('postagens', {
