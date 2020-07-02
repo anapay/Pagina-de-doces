@@ -1,0 +1,12 @@
+<H1>Lista de Clientes</H1>
+
+{{#each clientes}}
+    <small>{{createdAt}}</small>
+    {{nome}} <br>
+    {{email}} <br>
+    {{telefone}} <br>
+    {{mensagem}}
+<a href="/deletar/{{id}}"><button>Deletar</button></a>
+    <hr>
+
+{{/each}}
